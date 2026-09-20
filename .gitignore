@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# LC-MS data and generated model artifacts
+data/raw/
+data/processed/
+*.mzML
+*.mzml
+*.npz
+*.ckpt
+
+# Generated results
+results/*
+!results/README.md
+
+# Jupyter and macOS
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
